@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C84718722C425E20003B247F /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84718702C425E20003B247F /* HomeVC.swift */; };
+		C84718732C425E20003B247F /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C84718712C425E20003B247F /* HomeVC.xib */; };
+		C84718772C425E4F003B247F /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84718752C425E4F003B247F /* SettingVC.swift */; };
+		C84718782C425E4F003B247F /* SettingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C84718762C425E4F003B247F /* SettingVC.xib */; };
+		C847187B2C425EDE003B247F /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C847187A2C425EDE003B247F /* SliderCell.swift */; };
+		C847187D2C425F1A003B247F /* MyCustomTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C847187C2C425F1A003B247F /* MyCustomTabbarController.swift */; };
 		C86C42362C41188300A41481 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C42352C41188300A41481 /* AppDelegate.swift */; };
 		C86C42382C41188300A41481 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C42372C41188300A41481 /* SceneDelegate.swift */; };
-		C86C423A2C41188300A41481 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C42392C41188300A41481 /* ViewController.swift */; };
 		C86C423D2C41188300A41481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C423B2C41188300A41481 /* Main.storyboard */; };
 		C86C423F2C41188400A41481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C86C423E2C41188400A41481 /* Assets.xcassets */; };
 		C86C42422C41188400A41481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C42402C41188400A41481 /* LaunchScreen.storyboard */; };
+		C86C424E2C4119E800A41481 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C424D2C4119E800A41481 /* ImageHelper.swift */; };
+		C86C5E882C4268C700683D66 /* SliderScreneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C5E872C4268C700683D66 /* SliderScreneVC.swift */; };
+		C86C5E902C42940B00683D66 /* AddMedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C5E8E2C42940B00683D66 /* AddMedVC.swift */; };
+		C86C5E912C42940B00683D66 /* AddMedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C86C5E8F2C42940B00683D66 /* AddMedVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C84718702C425E20003B247F /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		C84718712C425E20003B247F /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		C84718752C425E4F003B247F /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		C84718762C425E4F003B247F /* SettingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingVC.xib; sourceTree = "<group>"; };
+		C847187A2C425EDE003B247F /* SliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCell.swift; sourceTree = "<group>"; };
+		C847187C2C425F1A003B247F /* MyCustomTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTabbarController.swift; sourceTree = "<group>"; };
 		C86C42322C41188300A41481 /* MedTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86C42352C41188300A41481 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C86C42372C41188300A41481 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C86C42392C41188300A41481 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C86C423C2C41188300A41481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C86C423E2C41188400A41481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C86C42412C41188400A41481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C86C42432C41188400A41481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C86C424D2C4119E800A41481 /* ImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
+		C86C5E872C4268C700683D66 /* SliderScreneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderScreneVC.swift; sourceTree = "<group>"; };
+		C86C5E8E2C42940B00683D66 /* AddMedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMedVC.swift; sourceTree = "<group>"; };
+		C86C5E8F2C42940B00683D66 /* AddMedVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddMedVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C847186F2C425E0B003B247F /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				C84718702C425E20003B247F /* HomeVC.swift */,
+				C84718712C425E20003B247F /* HomeVC.xib */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		C84718742C425E39003B247F /* SettingVC */ = {
+			isa = PBXGroup;
+			children = (
+				C84718752C425E4F003B247F /* SettingVC.swift */,
+				C84718762C425E4F003B247F /* SettingVC.xib */,
+			);
+			path = SettingVC;
+			sourceTree = "<group>";
+		};
+		C84718792C425EA2003B247F /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				C847187A2C425EDE003B247F /* SliderCell.swift */,
+				C847187C2C425F1A003B247F /* MyCustomTabbarController.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
 		C86C42292C41188300A41481 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +101,61 @@
 		C86C42342C41188300A41481 /* MedTracker */ = {
 			isa = PBXGroup;
 			children = (
-				C86C42352C41188300A41481 /* AppDelegate.swift */,
-				C86C42372C41188300A41481 /* SceneDelegate.swift */,
-				C86C42392C41188300A41481 /* ViewController.swift */,
-				C86C423B2C41188300A41481 /* Main.storyboard */,
+				C86C42492C4118FB00A41481 /* App */,
+				C86C424A2C41190500A41481 /* Views */,
+				C84718792C425EA2003B247F /* CustomViews */,
+				C86C424B2C41191600A41481 /* Controllers */,
+				C86C424C2C4119C700A41481 /* Constants */,
 				C86C423E2C41188400A41481 /* Assets.xcassets */,
-				C86C42402C41188400A41481 /* LaunchScreen.storyboard */,
 				C86C42432C41188400A41481 /* Info.plist */,
 			);
 			path = MedTracker;
+			sourceTree = "<group>";
+		};
+		C86C42492C4118FB00A41481 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C86C42372C41188300A41481 /* SceneDelegate.swift */,
+				C86C42352C41188300A41481 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C86C424A2C41190500A41481 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C847186F2C425E0B003B247F /* HomeVC */,
+				C84718742C425E39003B247F /* SettingVC */,
+				C86C5E8D2C4293EC00683D66 /* AddMedVC */,
+				C86C423B2C41188300A41481 /* Main.storyboard */,
+				C86C42402C41188400A41481 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C86C424B2C41191600A41481 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C86C5E872C4268C700683D66 /* SliderScreneVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C86C424C2C4119C700A41481 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C86C424D2C4119E800A41481 /* ImageHelper.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		C86C5E8D2C4293EC00683D66 /* AddMedVC */ = {
+			isa = PBXGroup;
+			children = (
+				C86C5E8E2C42940B00683D66 /* AddMedVC.swift */,
+				C86C5E8F2C42940B00683D66 /* AddMedVC.xib */,
+			);
+			path = AddMedVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +217,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C86C42422C41188400A41481 /* LaunchScreen.storyboard in Resources */,
+				C86C5E912C42940B00683D66 /* AddMedVC.xib in Resources */,
+				C84718732C425E20003B247F /* HomeVC.xib in Resources */,
 				C86C423F2C41188400A41481 /* Assets.xcassets in Resources */,
+				C84718782C425E4F003B247F /* SettingVC.xib in Resources */,
 				C86C423D2C41188300A41481 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +232,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C86C423A2C41188300A41481 /* ViewController.swift in Sources */,
+				C86C5E902C42940B00683D66 /* AddMedVC.swift in Sources */,
+				C847187B2C425EDE003B247F /* SliderCell.swift in Sources */,
+				C847187D2C425F1A003B247F /* MyCustomTabbarController.swift in Sources */,
+				C86C5E882C4268C700683D66 /* SliderScreneVC.swift in Sources */,
+				C84718772C425E4F003B247F /* SettingVC.swift in Sources */,
+				C84718722C425E20003B247F /* HomeVC.swift in Sources */,
 				C86C42362C41188300A41481 /* AppDelegate.swift in Sources */,
 				C86C42382C41188300A41481 /* SceneDelegate.swift in Sources */,
+				C86C424E2C4119E800A41481 /* ImageHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
