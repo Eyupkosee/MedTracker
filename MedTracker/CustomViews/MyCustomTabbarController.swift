@@ -12,7 +12,7 @@ class MyCustomTabBarController: UITabBarController {
     let btnMiddle: UIButton = {
             let btn = UIButton(frame: CGRect(x: 0, y: 0, width: 60, height: 60))
             btn.setTitle("", for: .normal)
-            btn.backgroundColor = UIColor(hex: "#3498db", alpha: 1.0)
+            btn.backgroundColor = UIColor(hex: "#55ebc1", alpha: 1.0)
             btn.layer.cornerRadius = 30
             btn.layer.shadowColor = UIColor.black.cgColor
             btn.layer.shadowOpacity = 0.2
@@ -29,10 +29,27 @@ class MyCustomTabBarController: UITabBarController {
         }()
     
     @objc func didTapMiddleButton() {
-            let addMedVC = AddMedVC()
-            addMedVC.modalPresentationStyle = .fullScreen
-            self.present(addMedVC, animated: true, completion: nil)
+        // 'AddViews' adındaki storyboard'u yüklüyoruz
+        let storyboard = UIStoryboard(name: "AddViews", bundle: nil)
+        
+        // 'AddMed' storyboard identifier'ı ile view controller'ı instantiate ediyoruz
+        guard let addMedVC = storyboard.instantiateViewController(withIdentifier: "AddMed") as? AddMedVC else {
+            print("Bu, view controller identifier'ınızı doğru ayarlamadığınız anlamına gelir.")
+            return
         }
+        
+        // Eğer navigation controller yoksa, bir navigation controller oluştur ve addMedVC'yi kök view controller olarak ayarla
+        if self.navigationController == nil {
+            let navController = UINavigationController(rootViewController: addMedVC)
+            navController.modalPresentationStyle = .fullScreen
+            self.present(navController, animated: true, completion: nil)
+        } else {
+            // Mevcut Navigation Controller'ı alıyoruz
+            self.navigationController?.pushViewController(addMedVC, animated: true)
+        }
+    }
+
+
     
     override func viewDidLoad() {
         super.viewDidLoad()

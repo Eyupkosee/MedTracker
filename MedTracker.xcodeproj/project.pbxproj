@@ -21,7 +21,8 @@
 		C86C424E2C4119E800A41481 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C424D2C4119E800A41481 /* ImageHelper.swift */; };
 		C86C5E882C4268C700683D66 /* SliderScreneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C5E872C4268C700683D66 /* SliderScreneVC.swift */; };
 		C86C5E902C42940B00683D66 /* AddMedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C5E8E2C42940B00683D66 /* AddMedVC.swift */; };
-		C86C5E912C42940B00683D66 /* AddMedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C86C5E8F2C42940B00683D66 /* AddMedVC.xib */; };
+		C86C5E972C42D13A00683D66 /* AddViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C5E962C42D13A00683D66 /* AddViews.storyboard */; };
+		C86C5E992C45516800683D66 /* MedSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C5E982C45516800683D66 /* MedSliderCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +42,8 @@
 		C86C424D2C4119E800A41481 /* ImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
 		C86C5E872C4268C700683D66 /* SliderScreneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderScreneVC.swift; sourceTree = "<group>"; };
 		C86C5E8E2C42940B00683D66 /* AddMedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMedVC.swift; sourceTree = "<group>"; };
-		C86C5E8F2C42940B00683D66 /* AddMedVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddMedVC.xib; sourceTree = "<group>"; };
+		C86C5E962C42D13A00683D66 /* AddViews.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddViews.storyboard; sourceTree = "<group>"; };
+		C86C5E982C45516800683D66 /* MedSliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedSliderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			children = (
 				C847187A2C425EDE003B247F /* SliderCell.swift */,
 				C847187C2C425F1A003B247F /* MyCustomTabbarController.swift */,
+				C86C5E982C45516800683D66 /* MedSliderCell.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -153,7 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				C86C5E8E2C42940B00683D66 /* AddMedVC.swift */,
-				C86C5E8F2C42940B00683D66 /* AddMedVC.xib */,
+				C86C5E962C42D13A00683D66 /* AddViews.storyboard */,
 			);
 			path = AddMedVC;
 			sourceTree = "<group>";
@@ -217,7 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C86C42422C41188400A41481 /* LaunchScreen.storyboard in Resources */,
-				C86C5E912C42940B00683D66 /* AddMedVC.xib in Resources */,
+				C86C5E972C42D13A00683D66 /* AddViews.storyboard in Resources */,
 				C84718732C425E20003B247F /* HomeVC.xib in Resources */,
 				C86C423F2C41188400A41481 /* Assets.xcassets in Resources */,
 				C84718782C425E4F003B247F /* SettingVC.xib in Resources */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C86C5E902C42940B00683D66 /* AddMedVC.swift in Sources */,
+				C86C5E992C45516800683D66 /* MedSliderCell.swift in Sources */,
 				C847187B2C425EDE003B247F /* SliderCell.swift in Sources */,
 				C847187D2C425F1A003B247F /* MyCustomTabbarController.swift in Sources */,
 				C86C5E882C4268C700683D66 /* SliderScreneVC.swift in Sources */,
