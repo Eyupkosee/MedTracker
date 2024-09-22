@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C80B19C62C4923E200FA690D /* monthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80B19C42C4923E200FA690D /* monthCell.swift */; };
+		C80B19C72C4923E200FA690D /* monthCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C80B19C52C4923E200FA690D /* monthCell.xib */; };
+		C80B19CC2C49D03A00FA690D /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = C80B19CB2C49D03A00FA690D /* Lottie */; };
+		C827C8C82C79F23200DF8BE3 /* selectTimeMedicine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C827C8C62C79F23200DF8BE3 /* selectTimeMedicine.swift */; };
+		C827C8C92C79F23200DF8BE3 /* selectTimeMedicine.xib in Resources */ = {isa = PBXBuildFile; fileRef = C827C8C72C79F23200DF8BE3 /* selectTimeMedicine.xib */; };
+		C82BD7832C46829F0079F2F6 /* DaysCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82BD7812C46829F0079F2F6 /* DaysCell.swift */; };
+		C82BD7842C46829F0079F2F6 /* DaysCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C82BD7822C46829F0079F2F6 /* DaysCell.xib */; };
 		C84718722C425E20003B247F /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84718702C425E20003B247F /* HomeVC.swift */; };
 		C84718732C425E20003B247F /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C84718712C425E20003B247F /* HomeVC.xib */; };
 		C84718772C425E4F003B247F /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84718752C425E4F003B247F /* SettingVC.swift */; };
@@ -23,9 +30,22 @@
 		C86C5E902C42940B00683D66 /* AddMedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C5E8E2C42940B00683D66 /* AddMedVC.swift */; };
 		C86C5E972C42D13A00683D66 /* AddViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86C5E962C42D13A00683D66 /* AddViews.storyboard */; };
 		C86C5E992C45516800683D66 /* MedSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C5E982C45516800683D66 /* MedSliderCell.swift */; };
+		C86C5E9B2C457BFD00683D66 /* AddMedDaysVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86C5E9A2C457BFD00683D66 /* AddMedDaysVC.swift */; };
+		C8B5ACFA2C4BDD94001C68D0 /* AddMedOftenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B5ACF92C4BDD94001C68D0 /* AddMedOftenVC.swift */; };
+		C8B5ACFE2C4BE13E001C68D0 /* animation6.json in Resources */ = {isa = PBXBuildFile; fileRef = C8B5ACFD2C4BE13E001C68D0 /* animation6.json */; };
+		C8B5AD012C4C019C001C68D0 /* HoursCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B5ACFF2C4C019C001C68D0 /* HoursCell.swift */; };
+		C8B5AD022C4C019C001C68D0 /* HoursCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8B5AD002C4C019C001C68D0 /* HoursCell.xib */; };
+		C8FC76DB2C49D3ED0080C6ED /* animation2.json in Resources */ = {isa = PBXBuildFile; fileRef = C8FC76DA2C49D3ED0080C6ED /* animation2.json */; };
+		C8FC76DD2C49D6180080C6ED /* animation3.json in Resources */ = {isa = PBXBuildFile; fileRef = C8FC76DC2C49D6180080C6ED /* animation3.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C80B19C42C4923E200FA690D /* monthCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = monthCell.swift; sourceTree = "<group>"; };
+		C80B19C52C4923E200FA690D /* monthCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = monthCell.xib; sourceTree = "<group>"; };
+		C827C8C62C79F23200DF8BE3 /* selectTimeMedicine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectTimeMedicine.swift; sourceTree = "<group>"; };
+		C827C8C72C79F23200DF8BE3 /* selectTimeMedicine.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = selectTimeMedicine.xib; sourceTree = "<group>"; };
+		C82BD7812C46829F0079F2F6 /* DaysCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysCell.swift; sourceTree = "<group>"; };
+		C82BD7822C46829F0079F2F6 /* DaysCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DaysCell.xib; sourceTree = "<group>"; };
 		C84718702C425E20003B247F /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		C84718712C425E20003B247F /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
 		C84718752C425E4F003B247F /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
@@ -44,6 +64,13 @@
 		C86C5E8E2C42940B00683D66 /* AddMedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMedVC.swift; sourceTree = "<group>"; };
 		C86C5E962C42D13A00683D66 /* AddViews.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddViews.storyboard; sourceTree = "<group>"; };
 		C86C5E982C45516800683D66 /* MedSliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedSliderCell.swift; sourceTree = "<group>"; };
+		C86C5E9A2C457BFD00683D66 /* AddMedDaysVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMedDaysVC.swift; sourceTree = "<group>"; };
+		C8B5ACF92C4BDD94001C68D0 /* AddMedOftenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMedOftenVC.swift; sourceTree = "<group>"; };
+		C8B5ACFD2C4BE13E001C68D0 /* animation6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation6.json; sourceTree = "<group>"; };
+		C8B5ACFF2C4C019C001C68D0 /* HoursCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoursCell.swift; sourceTree = "<group>"; };
+		C8B5AD002C4C019C001C68D0 /* HoursCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HoursCell.xib; sourceTree = "<group>"; };
+		C8FC76DA2C49D3ED0080C6ED /* animation2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = animation2.json; path = ../../../../Downloads/animation2.json; sourceTree = "<group>"; };
+		C8FC76DC2C49D6180080C6ED /* animation3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation3.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C80B19CC2C49D03A00FA690D /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,8 +109,23 @@
 				C847187A2C425EDE003B247F /* SliderCell.swift */,
 				C847187C2C425F1A003B247F /* MyCustomTabbarController.swift */,
 				C86C5E982C45516800683D66 /* MedSliderCell.swift */,
+				C82BD7812C46829F0079F2F6 /* DaysCell.swift */,
+				C82BD7822C46829F0079F2F6 /* DaysCell.xib */,
+				C80B19C42C4923E200FA690D /* monthCell.swift */,
+				C80B19C52C4923E200FA690D /* monthCell.xib */,
+				C8B5ACFF2C4C019C001C68D0 /* HoursCell.swift */,
+				C8B5AD002C4C019C001C68D0 /* HoursCell.xib */,
+				C827C8C62C79F23200DF8BE3 /* selectTimeMedicine.swift */,
+				C827C8C72C79F23200DF8BE3 /* selectTimeMedicine.xib */,
 			);
 			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		C84E86992CA0465A00A1F571 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoginVC;
 			sourceTree = "<group>";
 		};
 		C86C42292C41188300A41481 = {
@@ -111,6 +154,9 @@
 				C86C424C2C4119C700A41481 /* Constants */,
 				C86C423E2C41188400A41481 /* Assets.xcassets */,
 				C86C42432C41188400A41481 /* Info.plist */,
+				C8FC76DA2C49D3ED0080C6ED /* animation2.json */,
+				C8FC76DC2C49D6180080C6ED /* animation3.json */,
+				C8B5ACFD2C4BE13E001C68D0 /* animation6.json */,
 			);
 			path = MedTracker;
 			sourceTree = "<group>";
@@ -127,6 +173,7 @@
 		C86C424A2C41190500A41481 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C84E86992CA0465A00A1F571 /* LoginVC */,
 				C847186F2C425E0B003B247F /* HomeVC */,
 				C84718742C425E39003B247F /* SettingVC */,
 				C86C5E8D2C4293EC00683D66 /* AddMedVC */,
@@ -156,6 +203,8 @@
 			isa = PBXGroup;
 			children = (
 				C86C5E8E2C42940B00683D66 /* AddMedVC.swift */,
+				C86C5E9A2C457BFD00683D66 /* AddMedDaysVC.swift */,
+				C8B5ACF92C4BDD94001C68D0 /* AddMedOftenVC.swift */,
 				C86C5E962C42D13A00683D66 /* AddViews.storyboard */,
 			);
 			path = AddMedVC;
@@ -177,6 +226,9 @@
 			dependencies = (
 			);
 			name = MedTracker;
+			packageProductDependencies = (
+				C80B19CB2C49D03A00FA690D /* Lottie */,
+			);
 			productName = MedTracker;
 			productReference = C86C42322C41188300A41481 /* MedTracker.app */;
 			productType = "com.apple.product-type.application";
@@ -205,6 +257,9 @@
 				Base,
 			);
 			mainGroup = C86C42292C41188300A41481;
+			packageReferences = (
+				C80B19CA2C49D03A00FA690D /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = C86C42332C41188300A41481 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -220,11 +275,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				C86C42422C41188400A41481 /* LaunchScreen.storyboard in Resources */,
+				C82BD7842C46829F0079F2F6 /* DaysCell.xib in Resources */,
+				C8B5ACFE2C4BE13E001C68D0 /* animation6.json in Resources */,
+				C8B5AD022C4C019C001C68D0 /* HoursCell.xib in Resources */,
 				C86C5E972C42D13A00683D66 /* AddViews.storyboard in Resources */,
+				C8FC76DD2C49D6180080C6ED /* animation3.json in Resources */,
+				C827C8C92C79F23200DF8BE3 /* selectTimeMedicine.xib in Resources */,
 				C84718732C425E20003B247F /* HomeVC.xib in Resources */,
+				C80B19C72C4923E200FA690D /* monthCell.xib in Resources */,
 				C86C423F2C41188400A41481 /* Assets.xcassets in Resources */,
 				C84718782C425E4F003B247F /* SettingVC.xib in Resources */,
 				C86C423D2C41188300A41481 /* Main.storyboard in Resources */,
+				C8FC76DB2C49D3ED0080C6ED /* animation2.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,15 +297,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C827C8C82C79F23200DF8BE3 /* selectTimeMedicine.swift in Sources */,
 				C86C5E902C42940B00683D66 /* AddMedVC.swift in Sources */,
+				C86C5E9B2C457BFD00683D66 /* AddMedDaysVC.swift in Sources */,
 				C86C5E992C45516800683D66 /* MedSliderCell.swift in Sources */,
 				C847187B2C425EDE003B247F /* SliderCell.swift in Sources */,
 				C847187D2C425F1A003B247F /* MyCustomTabbarController.swift in Sources */,
 				C86C5E882C4268C700683D66 /* SliderScreneVC.swift in Sources */,
+				C82BD7832C46829F0079F2F6 /* DaysCell.swift in Sources */,
+				C80B19C62C4923E200FA690D /* monthCell.swift in Sources */,
 				C84718772C425E4F003B247F /* SettingVC.swift in Sources */,
 				C84718722C425E20003B247F /* HomeVC.swift in Sources */,
 				C86C42362C41188300A41481 /* AppDelegate.swift in Sources */,
+				C8B5AD012C4C019C001C68D0 /* HoursCell.swift in Sources */,
 				C86C42382C41188300A41481 /* SceneDelegate.swift in Sources */,
+				C8B5ACFA2C4BDD94001C68D0 /* AddMedOftenVC.swift in Sources */,
 				C86C424E2C4119E800A41481 /* ImageHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,6 +535,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C80B19CA2C49D03A00FA690D /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C80B19CB2C49D03A00FA690D /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C80B19CA2C49D03A00FA690D /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C86C422A2C41188300A41481 /* Project object */;
 }

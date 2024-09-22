@@ -17,21 +17,21 @@ class SliderScreneVC: UIViewController {
     
     // Variables
     let titleArray = [
-        "number 1 title",
-        "number 2 title",
-        "number 3 title"
+        "Welcome to Your Medication Tracker!",
+        "Track and Manage",
+        "Never Miss a Dose"
     ]
     
     let textArray = [
-        "number 1 text ajshjudhajsuhduahsjudasd asjduıasjhıda",
-        "number 2 text akdsokasdlk asdolk asodkoask odaksod",
-        "number 3 text sakdjıasjdıj ıasjdıajııdasjı as"
+        "Keep track of your medications effortlessly and receive timely reminders.",
+        "Easily enter your medications with all necessary details, such as dosage, frequency, and days of the week.",
+        "Enable notifications to ensure you never miss a dose and stay on top of your health."
     ]
     
     let imageArray = [
-        ImageHelper.img1,
-        ImageHelper.img2,
-        ImageHelper.img3
+        ImageHelper.slider1,
+        ImageHelper.slider2,
+        ImageHelper.slider3
     ]
     
   

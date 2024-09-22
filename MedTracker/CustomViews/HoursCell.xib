@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HoursCell" customModule="MedTracker" customModuleProvider="target">
+            <connections>
+                <outlet property="pickerView" destination="4PF-WU-ZuB" id="c9c-ku-kKV"/>
+                <outlet property="view" destination="p6D-Qg-rQk" id="sp6-oE-xXb"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="p6D-Qg-rQk">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="messageBg" translatesAutoresizingMaskIntoConstraints="NO" id="TTj-we-pNs">
+                    <rect key="frame" x="0.0" y="555" width="393" height="297"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5dQ-4i-521">
+                    <rect key="frame" x="206.66666666666663" y="758" width="166.33333333333337" height="50"/>
+                    <color key="backgroundColor" red="0.34901960784313724" green="0.70588235294117641" blue="0.89411764705882346" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Gkc-jm-zx5"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Done">
+                        <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="doneBtnClicked:" destination="-1" eventType="touchUpInside" id="qCA-zC-EjI"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Avq-eZ-z0n">
+                    <rect key="frame" x="20" y="758" width="166.66666666666666" height="50"/>
+                    <color key="backgroundColor" red="0.98431372549999996" green="0.52156862749999999" blue="0.81568627449999997" alpha="0.79783216059602657" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="2Hk-Vj-9y3"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Cancel">
+                        <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="cancelBtnClicked:" destination="-1" eventType="touchUpInside" id="Xg9-Li-ttI"/>
+                    </connections>
+                </button>
+                <pickerView contentMode="scaleToFill" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="4PF-WU-ZuB">
+                    <rect key="frame" x="20" y="628" width="353" height="100"/>
+                </pickerView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How Often ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="suL-ke-k9M">
+                    <rect key="frame" x="20" y="585" width="353" height="23"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_aid_kitt" translatesAutoresizingMaskIntoConstraints="NO" id="wnU-IF-B30">
+                    <rect key="frame" x="281" y="510" width="72" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="72" id="NGL-fz-SHw"/>
+                        <constraint firstAttribute="height" constant="60" id="gFn-iY-GAQ"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Hb1-iK-KwG"/>
+            <constraints>
+                <constraint firstItem="TTj-we-pNs" firstAttribute="centerX" secondItem="4PF-WU-ZuB" secondAttribute="centerX" id="892-ji-jH0"/>
+                <constraint firstItem="TTj-we-pNs" firstAttribute="leading" secondItem="p6D-Qg-rQk" secondAttribute="leading" id="9gu-Oq-8Ph"/>
+                <constraint firstItem="Hb1-iK-KwG" firstAttribute="trailing" secondItem="5dQ-4i-521" secondAttribute="trailing" constant="20" id="C6f-25-6Wk"/>
+                <constraint firstItem="4PF-WU-ZuB" firstAttribute="leading" secondItem="Hb1-iK-KwG" secondAttribute="leading" constant="20" id="DFb-YE-o2B"/>
+                <constraint firstItem="5dQ-4i-521" firstAttribute="leading" secondItem="Avq-eZ-z0n" secondAttribute="trailing" constant="20" id="Fce-Aj-XVD"/>
+                <constraint firstAttribute="bottom" secondItem="TTj-we-pNs" secondAttribute="bottom" id="GBO-zU-bH2"/>
+                <constraint firstItem="Hb1-iK-KwG" firstAttribute="trailing" secondItem="4PF-WU-ZuB" secondAttribute="trailing" constant="20" id="OS2-am-Liy"/>
+                <constraint firstItem="Avq-eZ-z0n" firstAttribute="top" secondItem="4PF-WU-ZuB" secondAttribute="bottom" constant="30" id="PFc-h8-MvM"/>
+                <constraint firstItem="TTj-we-pNs" firstAttribute="top" secondItem="Hb1-iK-KwG" secondAttribute="top" constant="496" id="Xti-av-pbk"/>
+                <constraint firstItem="suL-ke-k9M" firstAttribute="top" secondItem="TTj-we-pNs" secondAttribute="top" constant="30" id="Y4h-vR-58d"/>
+                <constraint firstItem="4PF-WU-ZuB" firstAttribute="top" secondItem="suL-ke-k9M" secondAttribute="bottom" constant="20" id="YG5-7I-vA6"/>
+                <constraint firstItem="Hb1-iK-KwG" firstAttribute="bottom" secondItem="Avq-eZ-z0n" secondAttribute="bottom" constant="10" id="hEa-La-KXg"/>
+                <constraint firstItem="Hb1-iK-KwG" firstAttribute="trailing" secondItem="suL-ke-k9M" secondAttribute="trailing" constant="20" id="iYG-zx-MN5"/>
+                <constraint firstItem="suL-ke-k9M" firstAttribute="top" secondItem="wnU-IF-B30" secondAttribute="bottom" constant="15" id="mwu-bb-U6e"/>
+                <constraint firstItem="Avq-eZ-z0n" firstAttribute="leading" secondItem="Hb1-iK-KwG" secondAttribute="leading" constant="20" id="psK-DN-ub6"/>
+                <constraint firstItem="Hb1-iK-KwG" firstAttribute="bottom" secondItem="5dQ-4i-521" secondAttribute="bottom" constant="10" id="txW-oo-9a0"/>
+                <constraint firstItem="Hb1-iK-KwG" firstAttribute="trailing" secondItem="wnU-IF-B30" secondAttribute="trailing" constant="40" id="w8E-Sf-qs0"/>
+                <constraint firstItem="5dQ-4i-521" firstAttribute="width" secondItem="Avq-eZ-z0n" secondAttribute="width" id="wk7-aP-f5A"/>
+                <constraint firstItem="suL-ke-k9M" firstAttribute="leading" secondItem="Hb1-iK-KwG" secondAttribute="leading" constant="20" id="xdW-TI-ltA"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="125.95419847328243" y="-31.690140845070424"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_aid_kitt" width="512" height="512"/>
+        <image name="messageBg" width="375" height="325"/>
+    </resources>
+</document>

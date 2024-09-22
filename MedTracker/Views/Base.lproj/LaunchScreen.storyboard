@@ -16,9 +16,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MED TRACKER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ROu-gH-cNC">
-                                <rect key="frame" x="106.66666666666669" y="239" width="180" height="50"/>
+                                <rect key="frame" x="110.33333333333333" y="139" width="172.66666666666669" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="180" id="biA-Yq-ySL"/>
                                     <constraint firstAttribute="height" constant="50" id="dgU-wr-ak2"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
@@ -27,10 +26,10 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.20392156862745098" green="0.59607843137254901" blue="0.85882352941176465" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.34901960784313724" green="0.70588235294117641" blue="0.89411764705882346" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ROu-gH-cNC" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="MC4-dj-djc"/>
-                            <constraint firstItem="ROu-gH-cNC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="180" id="XGC-Ze-ARX"/>
+                            <constraint firstItem="ROu-gH-cNC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="XGC-Ze-ARX"/>
                         </constraints>
                     </view>
                 </viewController>

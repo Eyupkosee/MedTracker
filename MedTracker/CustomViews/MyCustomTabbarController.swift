@@ -12,7 +12,7 @@ class MyCustomTabBarController: UITabBarController {
     let btnMiddle: UIButton = {
             let btn = UIButton(frame: CGRect(x: 0, y: 0, width: 60, height: 60))
             btn.setTitle("", for: .normal)
-            btn.backgroundColor = UIColor(hex: "#55ebc1", alpha: 1.0)
+        btn.backgroundColor = UIColor(hex: "#59B4E4", alpha: 1.0)
             btn.layer.cornerRadius = 30
             btn.layer.shadowColor = UIColor.black.cgColor
             btn.layer.shadowOpacity = 0.2
@@ -68,13 +68,13 @@ class MyCustomTabBarController: UITabBarController {
         let shape = CAShapeLayer()
         shape.path = path.cgPath
         shape.lineWidth = 3
-        shape.strokeColor = UIColor(hex: "#55ebc1", alpha: 1.0)?.cgColor
-        shape.fillColor = UIColor(hex: "#55ebc1", alpha: 1.0)?.cgColor
+        shape.strokeColor = UIColor(hex: "#59B4E4", alpha: 1.0)?.cgColor
+        shape.fillColor = UIColor(hex: "#59B4E4", alpha: 1.0)?.cgColor
         self.tabBar.layer.insertSublayer(shape, at: 0)
         self.tabBar.itemWidth = 40
         self.tabBar.itemPositioning = .centered
         self.tabBar.itemSpacing = 180
-        self.tabBar.tintColor = UIColor(hex: "#3498db", alpha: 1.0)
+        self.tabBar.tintColor = UIColor(hex: "#55ebc1", alpha: 1.0)
     }
     
     func addSomeTabItems() {
